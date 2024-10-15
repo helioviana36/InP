@@ -10,36 +10,61 @@ def q1():
 def q2():
     print ("30 e 37")
 #3. Faça um programa que imprima a média aritmética entre os números 5, 8, 12.
-def q2():
+def q3():
     print (f'media {((5+8+12)/3)}')
 #4. Faça um programa que leia e imprima um número inteiro.
-
+def q4():
+    nu = int(input('insira o numero:'))
+    print (nu)
 #5. Faça um programa que leia dois números reais e os imprima.
-
+def q5():
+    n1 = float(input('bota o 1º numero:'))
+    n2 = float(input('bota o 2º numeor:'))
+    print ('1º numero ', n1, ' 2º numeoro ', n2)
 #6. Faça um programa que leia um número inteiro e imprima o seu
 #   antecessor e o seu sucessor.
-
+def q6():
+    n = int(input('bota o numero'))
+    print(f'numero menos {n-1} numero normal {n} numero mais {n+1}')
 #7. Faça um programa que leia o nome o endereço e o telefone de
 #   um cliente e ao final, imprima esses dados.
-
+def q7():
+    nome = input('bota o nome')
+    endereco = input('bota o endereço')
+    telefone = input('bota o telefone')
+    print (f'nome: {nome} endereço: {endereco} telefone: {telefone}')
 #8. Faça um programa que leia dois números inteiros e imprima a
 #   subtração deles.
-
+def q8():
+    n1 = float(input('bota o primeiro numero'))
+    n2 = float(input('bota o segundo numero'))
+    print(n1 - n2)
 #9. Faça um programa que leia um número real e imprima ¼ deste número.
-
+def q9(): 
+    n1 = float(input('bota o numero ai:'))
+    print(n1/4)
 #10. Faça um programa que leia três números reais e calcule a
 #    média aritmética destes números. Ao final, o programa deve
 #    imprimir o resultado do cálculo.
-
+def q10():
+    n1 = float(input('bota o numeor'))
+    n2 = float(input('bota o numeor'))
+    n3 = float(input('bota o numeor'))
+    print(f'a media de {n1,n2,n3} é {(n1+n2+n3)/3}')
 #11. Faça um programa que leia dois números reais e calcule as
 #    quatro operações básicas entre estes dois números, adição,
 #    subtração,multiplicação e divisão. Ao final, o programa
 #    deve imprimir os resultados dos cálculos.
-
+def q11():
+    n1 = float(input('bota ai o numeor'))
+    n2 = float(input('boga ai mais um numeor'))
+    print(f'as operaçoes: \nsoma: {n1+n2} \nsubtração {n1-n2} \ndivisão {n1/n2} \nmultiplicação {n1*n2} ')
 #12. Faça um programa que leia um número real e calcule o
 #    quadrado deste número. Ao final, o programa deve
 #    imprimir o resultado do cálculo.
-
+def q12():
+    n1 = float(input('bota o numeor ai'))
+    print(f'o quadrado: {n1**2}')
 #13. Faça um programa que leia o saldo de uma conta poupança e
 #    imprima o novo saldo, considerando um reajuste de 2%.
 
